@@ -326,48 +326,36 @@
     </section>
     <!-- End Team Section -->
   <!-- ====== Contact ======-->
-  <!--title-->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-center py-5">Contact Us</h2>
-             
-      </div>
-      <!--End of title-->
-      <style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
-<body>
-
-<h2>Two Equal Columns</h2>
-
-<div class="row">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
-  </div>
+<div class="grid">
+    <div class="col-1-2">
+       <div class="content">
+          <div class="contact-info">
+        <div>
+          <i class="fas fa-map-marker-alt"></i> Address, City, Country
+        </div> 
+        <div>
+          <i class="fas fa-envelope"></i> contact@email.com
+        </div>
+        <div>
+           <i class="fas fa-phone"></i> 555-555-555
+        </div>
+        <div>
+           <i class="fas fa-clock"></i> Mon-Fri 8:00 AM to 5:00 PM 
+        </div>
+       </div>
+    </div>
+    <div class="col-1-2">
+       <div class="content">
+                 </div>
+        <form class="contact-form" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Enter your name">
+          <input type="email" email="email" class="text-box" placeholder="Enter your email">
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">      
+        </form>
+   </div>
+       </div>
+    </div>
 </div>
       <div class="contact-info">
         <div>
